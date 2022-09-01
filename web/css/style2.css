@@ -1,0 +1,39 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    background-color: orange;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.box01 {
+    top: 150px;
+    left: 150px;
+    color: aqua;
+    z-index: 2;
+}
+
+.box02 {
+    top: 250px;
+    left: 250px;
+    z-index: 1;
+    line-height: 100px;
+    text-align: center;
+}
+
+.box03 {
+    top: 350px;
+    left: 350px;
+}
+
+.box02:hover {
+    color: red;
+    opacity: 10px;
+}
+
+div:hover {
+    opacity: 1.0;
+}
