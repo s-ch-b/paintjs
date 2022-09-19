@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JUST 쇼핑몰</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="header">
+        <h1>로고</h1>
+        <div class="gnb">메뉴</div>
+    </div>
+    <div class="main"></div>
+    <div class="contents">
+        <biv class="notice">공지사항/갤러리</biv>
+        <div class="banner">배너</div>
+        <div class="baro">바로가기</div>
+    </div>
+    <div class="footer">
+        <h1>로고</h1>
+        <p class="copy">CopyRight</p>
+        <div class="sns">SNS</div>
+    </div>
+</body>
+</html>
+
+<!-- 와이어 프레임(wifeframe) 구축 : 1200px
+:화면 단위로 레이아웃을 만드는 작업
+ex) 2022 A-1 웹 디자인 기능사
+
+-> 행간 파악
+    홈페이지 상단  height : 100px
+    메인 이미지    height : 300px
+    콘텐츠 영역     height : 200px
+    홈페이지 하단   height : 100px
+
+-> 열간 파악  width : 수험자 판단
+    홈페이지 상단 : 로고,메뉴
+    메인 이미지
+    콘텐츠 영역 :공지사항/갤러리, 배너, 바로가기
+    홈페이지 하단 : 로고, copyRight , SNS
+
+3. 레이아웃을 만드는 작업
+ => 행간 레이아웃
+    <div class="header"></div>
+    <div class="main"></div>
+    <div class="contents"></div>
+    <div class="footer"></div>
+
+=> css를 만들어야함
+    width, height 크기를 지정
+    가운데 홈페이지 영역이 와야 된다.
+    => margin : 0 auto;
+    => 태그별로 여백이 다르기 때문에 여백을 없애고 시작
+    *{
+        padding : 0px;
+        margin : 0px;
+    }
+
+=-> 열간 레이아웃 
+    header의 자손 태그 : <h1>로고</h1>, <div class="gnb">메뉴</div>
+    contents의 자손 태그 : 
+    <div calss="notice">공지사항/갤러리</div>
+    <div calss="banner">배너</div>
+    <div calss="baro">바로가기</div>
+
+    footer의 자손 태그 :
+    <h1>로고</h1>
+    <p calss="copy"> copyRight </p>
+    <div calss="sns">SNS</div>
+    
+    => CSS작성 : 모든 태그에 대해 float : left
+    부모영역의 왼쪽에 맞춰서 배치
+    height 값 지정
+
+-->

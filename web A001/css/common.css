@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+}
+
+.gnb {
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.notice, .banner, .baro {
+    float: left;
+    width: 400px;
+    height: 200px;
+
+}
+
+.notice {
+    background-color: tomato;
+}
+
+
+.banner {
+    background-color: seagreen;
+}
+
+
+.baro {
+    background-color: blue;
+}
+
+.copy {
+    float: left;
+    width: 800px;
+    height: 100px;
+    background-color: gray;
+}
+
+.sns {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background-color: chartreuse;
+}

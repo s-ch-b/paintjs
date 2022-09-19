@@ -1,0 +1,17 @@
+div {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+
+    position: relative;
+}
+
+p {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+
+    position: absolute;
+    left: 220px;
+    top: 220px;
+}

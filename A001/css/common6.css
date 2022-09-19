@@ -1,0 +1,26 @@
+div {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 70px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+/* height 값이랑 line-height 값이 같을 경우 텍스트는 정중앙 */
+
+.box01 {
+    background-color: red;
+}
+
+.box02 {
+    background-color: green;
+}
+
+.box03 {
+    background-color: blue;
+}
